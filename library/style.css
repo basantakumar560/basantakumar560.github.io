@@ -1,0 +1,120 @@
+/*------------------Main Code INDEX-------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+}
+.wrapper
+{
+	min-height: 750px;
+	width: 100%;
+/*	background-color: red;*/
+}
+
+header
+{
+	display: flex;
+	width: 1520px;
+	background-color: aqua;
+	justify-content: space-between;
+	
+}
+section
+{
+	height: 650px;
+	width: 1520px;
+	background-color: darkgray;
+}
+footer
+{
+	height: 130px;
+	width: 1520px;
+	background-color: aqua;
+}
+.logo
+{
+	display: flex;
+	padding-left: 20px;
+	align-items: center;
+	justify-content: left;
+}
+.logo img
+{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+}
+
+li a
+{
+	color: crimson;
+	text-decoration: none;
+	
+}
+nav
+{
+	float: right;
+	word-spacing: 20px;
+	padding: 20px;
+}
+
+nav li
+{
+	display: inline-block;
+	line-height: 80px;
+	
+}
+
+section > .sec_img
+{
+	margin-top: 0px;
+	background-image: url("images/Photography.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.box
+{
+	height: 500px;
+	width: 400px;
+	background-color: #8c00ff;
+	margin: 20px auto;
+	color: white;
+}
+
+
+/*-----------------------STUDENT_LOGIN-----------------------*/
+
+.sec_img
+{
+	margin: 0px;
+	background-image: url("images/Photography.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
